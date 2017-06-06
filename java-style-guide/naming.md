@@ -61,7 +61,7 @@ The setter for a variable `var` should be called `setVar`.
 
 If you have a setter to set some instance variable and you have nothing meaningful to name the parameter, just give it the same name as the instance variable. When you are assigning it you can use `this` to reference the instance variable.
 
-THe same applies to constructors which behave like setters.
+The same applies to constructors which behave like setters.
 
 ```java
 // GOOD
