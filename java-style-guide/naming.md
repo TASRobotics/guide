@@ -37,16 +37,6 @@ pidController // lowerCamelCase
 - `lowerCamelCase`
 - Typically verbs or verb phrases
 
-# Constants
-
-- `CONSTANT_CASE`
-- Typically nouns or noun phrases
-
-# Non-constant variables and parameters
-
-- `lowerCamelCase`
-- Typically nouns or noun phrases
-
 ## Getters
 
 The getter for a variable `var` should be called `getVar`.
@@ -56,6 +46,16 @@ Except if the variable is a boolean, then it can start with `is`, like `isOpen` 
 ## Setters
 
 The setter for a variable `var` should be called `setVar`.
+
+# Constants
+
+- `CONSTANT_CASE`
+- Typically nouns or noun phrases
+
+# Non-constant variables and parameters
+
+- `lowerCamelCase`
+- Typically nouns or noun phrases
 
 ## Parameters to setters
 
