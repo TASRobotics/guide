@@ -2,30 +2,6 @@
 
 Note: The example code in this document is to demonstrate the formatting. The code itself makes no sense.
 
-# Indentation
-
-## Indenting blocks
-
-Use **4 spaces** for indenting blocks.
-
-Note: **This does NOT mean that you have to press the space bar 4 times to indent!**
-
-Eclipse by default inserts a "hard tab" character (ASCII code 9) when you press the tab key on your keyboard. But it can be configured to insert 4 spaces instead when you press it.
-
-If we use project-specific configuration in Eclipse it can be configured to insert spaces and pushed to the git repo so people on the team don't all have to change their Eclipse settings.
-
-```java
-if (example) {
-    println("I am indented with 4 spaces");
-}
-```
-
-## Indenting continuation lines
-
-Use **8 spaces** for indenting continuation lines. Continuation lines are new lines created from line wrapping.
-
-See also [Line length limit](#line-length-limit).
-
 # Line length limit
 
 If you have a line with more than **100 characters** in it, you should break it up into multiple lines. This is called line wrapping.
