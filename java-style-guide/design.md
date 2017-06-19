@@ -21,7 +21,7 @@ if (distance >= 5 && distance <= 10) {
 }
 ```
 
-The numbers can be moved to [the top of the class](structure.md#order-of-declarations) and declared as constants, since they should not be changed when the program is running.
+The numbers can be moved to [the top of the class](structure.md#order-of-declarations-in-classes) and declared as constants, since they should not be changed when the program is running.
 
 ```java
 public class SomeClass {
