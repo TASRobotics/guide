@@ -2,7 +2,7 @@
 
 # Order of top-level declarations in a file
 
-Each file should have declarations in the following order, with one blank line separating each one:
+Each file should have declarations in the following order:
 
 1. Package statement
 2. [Import statements](#import-statements)
@@ -29,7 +29,7 @@ You don't really have to worry about import statements since **Eclipse organizes
 
 # Order of declarations in classes
 
-Declarations in classes should generally have the following order, with one blank line separating each section:
+Declarations in classes should generally have the following order:
 
 1. Constants
 2. Static variables

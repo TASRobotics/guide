@@ -53,7 +53,7 @@ for (int i = 0; i < array.length; i++) {
 }
 ```
 
-The `0` in the loop isn't something that is likely to be changed, so it should stay there.
+The `0` in the loop initializer isn't something that is likely to be changed, so it should stay there.
 
 # Enums
 
@@ -105,9 +105,9 @@ climbState = ClimbState.Down;
 Enums are useful because:
 - They are more clear/descriptive than numbers.
 - They can be verified by the computer.
-    - Eclipse will warn you when some enum value is missing in a switch statement.
-    - If you have a method that takes an enum value, it is impossible to pass an invalid value to it.
-- They have a `toString` method, so if you want to show a string representation of some enum value, you can just call `toString` on it.
+    - Eclipse will warn you when a case label for some enum value is missing in a switch statement.
+    - It is impossible to have "out of range" values.
+- They have a built in `toString` method if you want to show a string representation of some enum value.
 
 Enums can either be placed inside a class, if they logically belong to a class, or they can be in their own files like classes.
 

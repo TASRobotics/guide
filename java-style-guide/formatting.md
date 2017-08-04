@@ -1,7 +1,5 @@
 # Formatting
 
-Note: The example code in this document is to demonstrate the formatting. The code itself makes no sense.
-
 # Line length limit
 
 If you have a line with more than **100 characters** in it, you should break it up into multiple lines. This is called line wrapping.
@@ -21,7 +19,7 @@ When wrapping lines, don't just break at the point closest to the limit. You sho
 
 **Use braces even when they are optional**, such as in `if` and `for` statements where there is only one statement in the body.
 
-Omitting braces when they are optional is a possible source of bugs, and also leads to the [dangling else problem](https://en.wikipedia.org/wiki/Dangling_else).
+Omitting braces when they are optional is a possible source of bugs.
 
 ```java
 // GOOD
@@ -49,8 +47,6 @@ while (true)
 
 ## Positioning of braces
 
-This is best described with examples.
-
 ```java
 public class someClass { // opening brace on the same line
 
@@ -62,7 +58,7 @@ public class someClass { // opening brace on the same line
 
         if (condition) {
             doSomething();
-        } else { // closing brace combined with else
+        } else { // closing brace of if combined with else
             doSomethingElse();
         }
 
@@ -104,9 +100,12 @@ The same thing applies to enum declarations.
 
 You can add blank lines in between statements to group them logically. This is useful for long methods or if a class has many instance variables.
 
-Also, there should be one blank line between constructors/methods as well as before the first thing in a class and after the last thing.
+Also, there should be one blank line in between:
+- [each of these sections](structure.md#order-of-top-level-declarations-in-a-file)
+- [each of these sections](structure.md#order-of-declarations-in-classes)
+- constructors/methods
 
-See also [Structure](structure.md) for more rules about blank lines.
+as well as before the first thing in a class and after the last thing.
 
 ## Spaces
 
@@ -116,7 +115,7 @@ For inside the line, put one space:
 
 - Between any keyword and opening parenthesis (`(`), e.g. `if`, `for`
 - Before any opening brace (`{`)
-    - Except if it is preceded by another opening brace (like when you are initializing a matrix)
+    - Except if it is preceded by another opening brace (when you are initializing a matrix)
 - Inside both braces of an array initializer
 - Between any closing brace (`}`) and keyword, e.g. `else` (see also [Positioning of braces](#positioning-of-braces))
 - Before and after binary or ternary operators

@@ -52,12 +52,12 @@ The setter for a variable `var` should be called `setVar`.
 - `CONSTANT_CASE`
 - Typically nouns or noun phrases
 
-# Non-constant variables and parameters
+# Variables and parameters
 
 - `lowerCamelCase`
 - Typically nouns or noun phrases
 
-## Parameters to setters
+## Parameters of setters
 
 If you have a setter to set some instance variable and you have nothing meaningful to name the parameter, just give it the same name as the instance variable. When you are assigning it you can use `this` to reference the instance variable.
 
