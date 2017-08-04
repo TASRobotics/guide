@@ -83,6 +83,22 @@ switch (mode) {
 }
 ```
 
+The `break` is very important. The only time you should omit it is when you want to have an "or" condition.
+
+```java
+switch (trafficLight) {
+    case Green:
+    case Yellow:
+        // go
+        break;
+    case Red:
+        // stop
+        break;
+}
+```
+
+You can also add a `default` label at the bottom to match any value.
+
 You should use enums when you would otherwise use a certain set of integers or strings. For example, instead of doing this:
 
 ```java
