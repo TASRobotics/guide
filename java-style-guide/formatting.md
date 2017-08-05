@@ -2,11 +2,10 @@
 
 # Line length limit
 
-If you have a line with more than **100 characters** in it, you should break it up into multiple lines. This is called line wrapping.
+If you have a line with more than **100 characters** in it, you should break it up into multiple lines. This is called line wrapping. [Javadoc comments](javadoc.md) should be line wrapped as well.
 
 Exceptions:
-- Package declaration
-- Imports
+- Package declaration and imports
 - Things that cannot be split like long URLs
 
 Note: Feel free to break up statements into multiple lines even if they don't exceed 100 characters. It often increases readability.
