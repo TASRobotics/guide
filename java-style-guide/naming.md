@@ -21,12 +21,12 @@ pidController // lowerCamelCase
 
 # Interfaces
 
-- Like classes
+- `UpperCamelCase`
 - Can also be adjectives or adjective phrases
 
 # Enums
 
-- Like classes
+- `UpperCamelCase`
 
 # Enum values
 
