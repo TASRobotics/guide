@@ -73,6 +73,12 @@ For a more formal definition, this is from [Google's style guide](https://google
 > - Line break before the closing brace.
 > - Line break after the closing brace, only if that brace terminates a statement or terminates the body of a method, constructor, or named class. For example, there is no line break after the brace if it is followed by `else` or a comma.
 
+If a method is empty, you can put it all on one line.
+
+```java
+public void emptyMethod() {}
+```
+
 ## Array initializers and enums
 
 If you have a short array initializer you can format it like this:
