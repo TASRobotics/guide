@@ -22,11 +22,12 @@ pidController // lowerCamelCase
 # Interfaces
 
 - `UpperCamelCase`
-- Can also be adjectives or adjective phrases
+- Typically nouns or noun phrases or adjectives or adjective phrases
 
 # Enums
 
 - `UpperCamelCase`
+- Typically nouns or noun phrases
 
 # Enum values
 
