@@ -48,9 +48,6 @@ If more documentation is needed, you can add more paragraphs. For example:
  * In this example, there are multiple paragraphs in the comment. Notice how you can split the
  * paragraph onto multiple lines. You should do this if your paragraph is too long.
  *
- * <p>Addition is commutative: {@code add(4, 2) == add(2, 4)}. The example in the previous sentence
- * shows how to write inline code in your documentation.
- *
  * @param a the first number
  * @param b the second number
  * @return the sum of the two numbers
