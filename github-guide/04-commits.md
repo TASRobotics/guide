@@ -54,4 +54,6 @@ After you commit, your changes aren't on GitHub yet, they are just on your compu
 
 ![](img/push.png)
 
+If you created the branch locally on your computer and this is your first push, you will see "publish" instead of "push", because the branch itself isn't on GitHub yet.
+
 Note that you can make multiple commits and push them all at once if you want.
