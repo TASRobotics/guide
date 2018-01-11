@@ -47,3 +47,9 @@ The description part is optional. If you want to add more info, you can write it
 ## Undoing commits
 
 GitHub Desktop provides a handy undo button that appears after you commit, in case you want to change something.
+
+## Pushing
+
+After you commit, your changes aren't on GitHub yet, they are just on your computer. To sync with GitHub you have to push your changes.
+
+Note that you can make multiple commits and push them all at once if you want.
