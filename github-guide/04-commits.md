@@ -52,4 +52,6 @@ GitHub Desktop provides a handy undo button that appears after you commit, in ca
 
 After you commit, your changes aren't on GitHub yet, they are just on your computer. To sync with GitHub you have to push your changes.
 
+![](img/push.png)
+
 Note that you can make multiple commits and push them all at once if you want.
