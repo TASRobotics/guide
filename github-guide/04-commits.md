@@ -14,8 +14,6 @@ By default, GitHub Desktop will commit all changes. You can choose to only commi
 
 Why would you want to do that? Sometimes, you make multiple unrelated changes to the code at once. Instead of making a big commit with multiple unrelated changes, it is better to commit those changes separately.
 
-Also, generally, you should make sure what you are committing at least compiles before you commit it.
-
 ## Commit message
 
 The most important part of a commit is the commit message. There are two parts: the summary and the description.
