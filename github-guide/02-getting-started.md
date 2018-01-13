@@ -1,5 +1,11 @@
 # Getting started
 
+## GitHub web interface
+
+Each repository has a web interface on github.com which can be accessed in your browser. The URL for each repo is github.com/`user or organization name`/`repo name`. For example the current page you are reading is in the guide repo, so the URL is github.com/TASRobotics/guide. Note that all TASRobotics repos are private, so you must be signed in to access them.
+
+In the web interface, you can browse the files in the repository, as well as use issues and pull requests.
+
 ## Git client
 
 In order to work on projects, you have to have git on your computer. There are several things you can use:
