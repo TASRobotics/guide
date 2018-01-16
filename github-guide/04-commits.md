@@ -4,7 +4,7 @@ Git tracks changes to your code by tracking commits. After you change something 
 
 ## Before you commit
 
-You can keep GitHub Desktop open alongside Eclipse while you code. After you've made some changes to the code in Eclipse, save the file, and switch to GitHub Desktop. It should automatically detect what changes you have made.
+You can keep GitHub Desktop open alongside Eclipse while you code. After you've made some changes to the code in Eclipse, save the file, and switch to GitHub Desktop. It should automatically detect what changes you have made. Note that when you change the file on your computer, git doesn't actually record your changes. It only records your changes once you commit.
 
 ![](img/committing.png)
 
