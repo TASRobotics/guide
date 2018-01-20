@@ -44,6 +44,16 @@ To switch which branch you are looking at when you are browsing the code in the 
 
 ![](img/switch-branches-github-web.png)
 
+## Updating from master
+
+Sometimes you want to merge master into your branch. This would happen if:
+
+1. You branch off master
+2. Someone else merges another branch into master
+3. You want the new changes in master to also be in your branch
+
+To do this, go to `Branch > Update from default branch` in GitHub desktop.
+
 ## The network diagram
 
 Having a lot of branches can get confusing. There is a nice graphical view of all the branches of a repository, which you can access by going to the `Insights` tab in the web interface, then selecting `Network`.
