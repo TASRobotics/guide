@@ -4,7 +4,7 @@ When you are done making changes to your branch, you should merge it back into t
 
 ## Before you merge
 
-Make sure that your code works, and that it has been tested thoroughly. The master branch should only contain stable, working code.
+Make sure that your code works, and that it has been tested thoroughly. The master branch should only contain stable, working code. Also, make sure that your code complies with the [style guide](https://github.com/TASRobotics/guide/blob/master/java-style-guide).
 
 ## Compare
 
