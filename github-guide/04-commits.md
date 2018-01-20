@@ -55,3 +55,7 @@ After you commit, your changes aren't on GitHub yet, they are just on your compu
 If you created the branch locally on your computer and this is your first push, you will see "publish" instead of "push", because the branch itself isn't on GitHub yet.
 
 Note that you can make multiple commits and push them all at once if you want.
+
+## Pulling
+
+Sometimes the branch on the GitHub server will be more updated than the one on your computer. This might happen if someone else pushed to GitHub from their computer. If this happens, you will see a "pull" button instead of "push" (or in addition to, if you have commits on your computer that haven't been pushed yet). When you click pull, the files on your computer will be updated.
