@@ -40,6 +40,8 @@ To switch branches in GitHub Desktop, click on the current branch.
 
 Note that this will change the actual files on your computer, so make sure you don't have any uncommitted changes before switching branches.
 
+Sometimes Eclipse won't detect new classes that are added after you switch branches. To force it to refresh, right click on the project in the package explorer and click `Refresh`.
+
 To switch which branch you are looking at when you are browsing the code in the web interface, you can use the branch dropdown. By default the branch is master.
 
 ![](img/switch-branches-github-web.png)
