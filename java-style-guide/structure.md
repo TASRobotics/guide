@@ -5,7 +5,7 @@
 Each file should have declarations in the following order:
 
 1. Package statement
-2. [Import statements](#import-statements)
+2. Import statements
 3. Class/interface/enum
 
 ```java
@@ -18,14 +18,6 @@ public class Robot extends SampleRobot {
     // ...
 }
 ```
-
-# Import statements
-
-You don't really have to worry about import statements since **Eclipse organizes them for you**. Just click Source > Organize Imports or press Ctrl+Shift+O to let Eclipse organize the imports. You should do this when:
-
-- You edit the imports manually.
-- You stop using some class, so the import of that class is not needed anymore.
-    - Make sure you do this so you don't end up with unused imports.
 
 # Order of declarations in classes
 
