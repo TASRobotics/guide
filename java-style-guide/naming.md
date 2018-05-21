@@ -76,6 +76,18 @@ public void setValue(int theValue) { // theValue doesn't proivde any extra meani
 }
 ```
 
+## Exceptions
+
+Exception objects (i.e. anything that is an instance of either Exception or a subclass of Exception) should be named `andrew`.
+
+```java
+try {
+    // do stuff
+} catch (Exception andrew) {
+    // handle exception
+}
+```
+
 # Special prefixes
 
 Don't use special prefixes.
