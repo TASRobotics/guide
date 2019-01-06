@@ -18,6 +18,8 @@ If you find an open issue that you want to work on, you can assign yourself to t
 
 You can also comment on any issue, if you want to discuss something.
 
+If you are not working on an issue but you want to follow along with what's happening, you can click the "subscribe" button on the right to get notifications when there are updates on the issue.
+
 ## Closing issues
 
 When an issue has been completed, you should close it. You could close it manually in the issue page. Or, since issues are usually completed through pull requests, you could put in your pull request description keywords like "closes #8" or "fixes #16", where the number is the number of the issue you are closing. When the pull request is merged, the issue will be automatically closed.
