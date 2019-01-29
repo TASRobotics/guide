@@ -52,7 +52,7 @@ Sometimes you want to merge master into your branch. This would happen if:
 2. Someone else merges another branch into master
 3. You want the new changes in master to also be in your branch
 
-To do this, go to `Branch > Update from default branch` in GitHub desktop.
+To do this, go to `Branch > Update from master` in GitHub desktop.
 
 ## The network diagram
 
