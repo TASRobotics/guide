@@ -15,7 +15,7 @@ public int add(int a, int b) {
 }
 ```
 
-To start a Javadoc comment, just put your cursor on the line above a method, or whatever you want to document, then type `/**` and press enter. The editor will insert the rest of the comment automatically, including any necessary tags.
+To start a Javadoc comment, just put your cursor on the line above a method, or whatever you want to document, then type `/**` and press tab to autocomplete. VSCode will insert the rest of the comment automatically, including any necessary tags.
 
 # Where to use
 
