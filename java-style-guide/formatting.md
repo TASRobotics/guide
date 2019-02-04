@@ -12,6 +12,8 @@ Note: Feel free to break up statements into multiple lines even if they don't ex
 
 When wrapping lines, don't just break at the point closest to the limit. You should break the line in a way that it is easy to read.
 
+Most editors have a "ruler" setting that can be enabled to show a vertical line at the line length limit.
+
 # Braces (`{}`)
 
 ## Places where braces are optional
